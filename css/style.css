@@ -1,0 +1,42 @@
+.Blur img{filter: blur(3px);
+    margin: 0 auto;
+    display: block;
+
+}
+.Blur img:hover{filter: blur(0px);}
+
+.hue img{filter: hue-rotate(50deg);
+    margin: 0 auto;
+    display: block;
+}
+.hue img:hover{filter: hue-rotate(0deg);}
+
+.bright img{filter: brightness(50%);
+    margin: 0 auto;
+    display: block;
+}
+.bright img:hover{filter: brightness(100%);}
+
+.greyscale img{filter: grayscale(100%);
+    margin: 0 auto;
+    display: block;
+}
+.greyscale img:hover{filter: grayscale(0%);}
+
+.invert img{filter: invert(100%);
+    margin: 0 auto;
+    display: block;
+}
+.invert img:hover{filter: invert(0%);}
+
+.saturate img{filter: saturate(0%);
+    margin: 0 auto;
+    display: block;
+}
+.saturate img:hover{filter: saturate(100%);}
+
+.sepia img{filter: sepia(100%);
+    margin: 0 auto;
+    display: block;
+}
+.sepia img:hover{filter: sepia(0%);}
